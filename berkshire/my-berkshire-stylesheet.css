@@ -34,7 +34,7 @@ body { margin: 0; }
   float: left;
   width 50%;
   padding: 20px 0;
-  margin: 1% 0 0 7%;
+  margin: -1% 0 0 7%;
   display: inline;
 }
 
