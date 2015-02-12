@@ -20,7 +20,7 @@ p.addy {
 }
 
 div {
-  column-count: 3;
+  column-count: 2;
   column-rule: 3px outset #ff00ff;
 }
 
