@@ -22,6 +22,7 @@ p.addy {
 div {
   column-count: 2;
   column-rule: 3px outset #ff00ff;
+  column-rule-width: 30;
 }
 
 #wrapper {
