@@ -1,12 +1,14 @@
-#header span {
+#header {
   font-style: bold;
   text-align: center;
+  font-style: italic;
+}
+
+span {
   font-size: 38px;
 }
 
-}
-
-h4 #span{
+h4 {
   text-align: center;
   line-height: -20%;
   color: #000080;
