@@ -19,29 +19,21 @@ p.addy {
   line-height: 0%;
 }
 
-div {
-  column-count: 2;
-  column-rule: 3px outset #ff00ff;
-  column-rule-width: 30;
+.container {
+  position: relative;
+  margin: .5em;
 }
 
-#wrapper {
-  width: 1200;
-  margin: 0 auto;
+.leftColumn {
+  border: 1 px solid #ccc;
+  padding: 1.25em;
+  margin-bottom: .5em
 }
 
-#header {
-  text-align: center;
-}
-
-#left-column {
-  float: left;
-  width: 650px;
-}
-
-#right-column {
-  float: right
-  width: 650px;
+.rightColumn {
+  border: 1 px solid #ccc;
+  padding: 1.25em;
+  margin-bottom: .5em
 }
 
 p.homepage {
