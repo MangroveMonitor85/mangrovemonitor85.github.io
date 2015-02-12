@@ -19,6 +19,16 @@ p.addy {
   line-height: 0%;
 }
 
+#col_1 {
+  float: left;
+  width: 500px;
+}
+
+#col_2 {
+  float: right;
+  width: 250px;
+}
+
 p.homepage {
   font-size: 15;
   font-weight: bold;
