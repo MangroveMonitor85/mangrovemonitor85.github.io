@@ -48,6 +48,13 @@ p.bottom {
   line-height: 0%;
 }
 
+p.website {
+  font-size: 13px;
+  text-align: center;
+  color: #000080;
+  line-height: 0%;
+}
+
 p.contact {
   font-size: 13px;
   text-align: center;
