@@ -22,13 +22,11 @@ p.addy {
 #col_1 {
   float: left;
   width: 500px;
-  line-height: 30%;
 }
 
 #col_2 {
   float: right;
   width: 500px;
-  line-height: 30%;
 }
 
 p.homepage {
