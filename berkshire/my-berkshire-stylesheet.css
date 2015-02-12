@@ -31,7 +31,6 @@ body { margin: 0; }
 }
 
 .leftColumn {
-  clear: left;
   float: left;
   width 30%;
   padding: 20px 0;
