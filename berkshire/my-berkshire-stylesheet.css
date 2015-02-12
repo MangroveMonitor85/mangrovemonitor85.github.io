@@ -49,15 +49,14 @@ p.bottom {
 }
 
 p.contact {
-  color: #000080;
+  font-size: 13px;
   text-align: center;
-  font-size: 14px;
-  line-height: -20%;
+  color: #000080;
 }
 
 p.disclaimer {
-  color: #000080;
   font-size: 13px;
+  color: #000080;
 }
 
 span.copyright {
