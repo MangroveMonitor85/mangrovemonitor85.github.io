@@ -2,6 +2,11 @@
   -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;
 }*/
 
+#topBar {
+  height: 1px;
+  color: black;
+}
+
 p.header {
   font-size: 20px;
   font-weight: bold;
