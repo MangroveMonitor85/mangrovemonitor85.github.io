@@ -4,7 +4,7 @@
 
 #topBar {
   height: 1px;
-  background: black;
+  background: gray;
 }
 
 p.header {
@@ -86,7 +86,7 @@ html {
 
 #secondBar {
   height: 1px;
-  background: black;
+  background: gray;
 }
 
 img {
@@ -119,7 +119,7 @@ p.contact {
 
 #thirdBar {
   height: 1px;
-  background: black;
+  background: gray;
 }
 
 p.disclaimer {
@@ -129,7 +129,7 @@ p.disclaimer {
 
 #bottomBar {
   height: 1px;
-  background: black;
+  background: gray;
 }
 
 span.copyright {
