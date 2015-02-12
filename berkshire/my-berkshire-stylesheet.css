@@ -64,3 +64,8 @@ span.copyright {
   font-size: 10px;
   color: #000080;
 }
+
+span.company {
+  font-size: 12px;
+  font-weight: bold;
+}
