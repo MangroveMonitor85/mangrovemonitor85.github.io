@@ -49,6 +49,7 @@ body { margin: 0; }
 
 li {
   line-height: 250%;
+  display: inline-block;
 }
 
 p.homepage {
