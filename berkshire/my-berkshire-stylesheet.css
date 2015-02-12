@@ -20,17 +20,14 @@ p.addy {
 }
 
 #container {
-  margin-left: 20%;
 }
 
 #col_1 {
-  float: left;
-  width: 20%;
+  margin-left: 20%
 }
 
 #col_2 {
-  float: right;
-  width: 20%;
+  margin-right: 20%;
 }
 
 p.homepage {
