@@ -47,6 +47,10 @@ body { margin: 0; }
   display: inline;
 }
 
+li {
+  line-height: 20px;
+}
+
 p.homepage {
   font-size: 15;
   font-weight: bold;
