@@ -2,11 +2,6 @@
   -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;
 }*/
 
-#headerBar {
-  height: 1px;
-  background: gray;
-}
-
 p.header {
   font-size: 20px;
   font-weight: bold;
@@ -26,6 +21,11 @@ p.addy {
   text-align: center;
   color: #000080;
   line-height: 0%;
+}
+
+#headerBar {
+  height: 1px;
+  background: gray;
 }
 
 body { margin: 0; }
