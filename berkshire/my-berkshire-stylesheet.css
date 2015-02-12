@@ -24,7 +24,7 @@ p.addy {
 }
 
 .container {
-  position: relative;
+  position: auto;
   margin: .5em;
 }
 
