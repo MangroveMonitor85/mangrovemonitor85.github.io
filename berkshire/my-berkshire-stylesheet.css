@@ -26,12 +26,12 @@ p.addy {
 
 #left-column {
   float: left;
-  width: 800px;
+  width: 600px;
 }
 
 #right-column {
   float: right
-  width: 800px;
+  width: 600px;
 }
 
 p.homepage {
