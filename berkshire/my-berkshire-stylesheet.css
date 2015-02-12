@@ -32,7 +32,9 @@ p.homepage {
   background: gray;
 }
 
-body { margin: 0; }*/
+body {
+  margin: 0;
+}
 
 .container {
   float: left;
