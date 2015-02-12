@@ -130,6 +130,7 @@ p.disclaimer {
 #footerBar {
   height: 1px;
   background: gray;
+  line-height: 10%;
 }
 
 span.copyright {
