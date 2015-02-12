@@ -28,8 +28,10 @@ html {
   background-color: #ffffff;
 }
 
-img {
-  text-align: center;
+IMG.displayed {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /*html {
