@@ -24,11 +24,13 @@ p.addy {
 }
 
 #col_1 {
-  margin-left: 200px;
+  float: left;
+  width: 200px;
 }
 
 #col_2 {
-  margin-right: 200px;
+  float: right
+  width: 200px;
 }
 
 p.homepage {
