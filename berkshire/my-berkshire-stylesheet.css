@@ -1,5 +1,5 @@
 p.header {
-  font-size: 20px;
+  font-size: 15px;
   font-style: bold;
   text-align: center;
   color: #000080;
@@ -7,7 +7,7 @@ p.header {
 }
 
 span {
-  font-size: 38px;
+  font-size: 30px;
   font-style: bold;
 }
 
