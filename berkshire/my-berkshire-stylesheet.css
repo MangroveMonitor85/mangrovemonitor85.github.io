@@ -24,6 +24,10 @@ p.addy {
   margin: 0 auto;
 }
 
+#header {
+  text-align: center;
+}
+
 #left-column {
   float: left;
   width: 650px;
