@@ -28,7 +28,7 @@ html {
   background-color: #ffffff;
 }
 
-IMG.displayed {
+img.displayed {
   display: block;
   margin-left: auto;
   margin-right: auto;
