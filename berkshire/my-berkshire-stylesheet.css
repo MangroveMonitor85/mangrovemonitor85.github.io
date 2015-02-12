@@ -1,10 +1,9 @@
-#header {
+#header span {
   font-style: bold;
   text-align: center;
+  font-size: 38px;
 }
 
-span {
-  font-size: 38px;
 }
 
 h4 #span{
