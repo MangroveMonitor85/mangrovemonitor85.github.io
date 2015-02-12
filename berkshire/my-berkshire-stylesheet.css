@@ -18,6 +18,10 @@ html {
   background-color: #ffffff;
 }
 
+#header {
+  font-style: bold;
+}
+
 /*html {
   color: red;
 }*/
