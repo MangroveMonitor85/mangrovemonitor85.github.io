@@ -40,6 +40,11 @@ img {
   margin-right: auto;
 }
 
+p span {
+  color: #000080;
+  text-align: center;
+}
+
 /*html {
   color: red;
 }*/
