@@ -59,3 +59,8 @@ p.disclaimer {
   color: #000080;
   font-size: 13px;
 }
+
+p.copyright {
+  font-size: 8px;
+  color: #000080;
+}
