@@ -26,20 +26,25 @@ p.addy {
 body { margin: 0; }
 
 .container {
-  position: auto;
-  margin: .5em;
+  float: left;
+  width: 100%;
 }
 
 .leftColumn {
-  border: 1 px solid #ccc;
-  padding: 1.50em;
-  margin-bottom: .5em
+  clear: left;
+  float: left;
+  width 40%;
+  padding: 20px 0;
+  margin: 0 0 0 4%;
+  display: inline;
 }
 
 .rightColumn {
-  border: 1 px solid #ccc;
-  padding: 1.50em;
-  margin-bottom: .5em
+  float: right;
+  width 40%;
+  padding: 20px 0;
+  margin: 0 3% 0 0;
+  display: inline;
 }
 
 p.homepage {
