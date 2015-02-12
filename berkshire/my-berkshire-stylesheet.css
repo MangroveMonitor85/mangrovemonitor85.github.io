@@ -32,7 +32,7 @@ p.homepage {
   background: gray;
 }
 
-/*body { margin: 0; }*/
+body { margin: 0; }*/
 
 .container {
   float: left;
@@ -58,6 +58,8 @@ p.homepage {
 li {
   line-height: 250%;
 }
+
+
 
 h3 {
   color: #000080;
