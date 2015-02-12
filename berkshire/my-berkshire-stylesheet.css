@@ -54,3 +54,8 @@ span.contact {
   font-size: 14px;
   line-height: -20%;
 }
+
+p.disclaimer {
+  color: #000080;
+  font-size: 10px;
+}
