@@ -4,7 +4,7 @@
 
 #topBar {
   height: 1px;
-  color: black;
+  background: black;
 }
 
 p.header {
@@ -84,6 +84,10 @@ html {
   background-color: #ffffff;
 }
 
+#thirdBar {
+  height: 1px;
+  background: black;
+
 img {
   display: block;
   margin-left: auto;
@@ -111,6 +115,10 @@ p.contact {
   color: #000080;
   line-height: 0%;
 }
+
+#bottomBar {
+  height: 1px;
+  background: black;
 
 p.disclaimer {
   font-size: 13px;
