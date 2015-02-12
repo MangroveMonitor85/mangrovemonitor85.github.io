@@ -23,6 +23,8 @@ p.addy {
   line-height: 0%;
 }
 
+body { margin: 0; }
+
 .container {
   position: auto;
   margin: .5em;
