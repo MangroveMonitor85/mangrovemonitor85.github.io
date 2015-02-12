@@ -25,12 +25,12 @@ p.addy {
   margin-right: auto;
 }
 
-#col_1 {
+#left-column {
   float: left;
   width: 800px;
 }
 
-#col_2 {
+#right-column {
   float: right
   width: 800px;
 }
