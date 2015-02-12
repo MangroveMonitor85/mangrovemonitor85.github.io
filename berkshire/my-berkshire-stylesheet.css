@@ -87,6 +87,7 @@ html {
 #secondBar {
   height: 1px;
   background: black;
+}
 
 img {
   display: block;
@@ -116,13 +117,19 @@ p.contact {
   line-height: 0%;
 }
 
-#bottomBar {
+#thirdBar {
   height: 1px;
   background: black;
+}
 
 p.disclaimer {
   font-size: 13px;
   color: #000080;
+}
+
+#bottomBar {
+  height: 1px;
+  background: black;
 }
 
 span.copyright {
