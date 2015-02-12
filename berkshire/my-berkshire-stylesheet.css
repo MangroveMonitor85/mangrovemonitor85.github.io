@@ -60,7 +60,7 @@ p.disclaimer {
   font-size: 13px;
 }
 
-p.copyright {
+span.copyright {
   font-size: 8px;
   color: #000080;
 }
