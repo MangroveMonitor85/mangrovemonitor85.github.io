@@ -61,13 +61,13 @@ body {
   display: inline;
 }
 
-li {
-  line-height: 250%;
-}
-
 #secondBar {
   height: 1px;
   background: gray;
+}
+
+li {
+  line-height: 250%;
 }
 
 a {
