@@ -1,3 +1,7 @@
+html {
+  background-color: #ffffff;
+}
+
 p.header {
   font-size: 20px;
   font-weight: bold;
@@ -68,10 +72,6 @@ a {
 
 a:visited {
   color: #ff0000;
-}
-
-html {
-  background-color: #ffffff;
 }
 
 #secondBar {
