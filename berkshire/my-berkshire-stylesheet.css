@@ -27,13 +27,13 @@ p.homepage {
   line-height: 20%;
 }
 
+body {
+  margin: auto;
+}
+
 #headerBar {
   height: 1px;
   background: gray;
-}
-
-body {
-  margin: auto;
 }
 
 .container {
