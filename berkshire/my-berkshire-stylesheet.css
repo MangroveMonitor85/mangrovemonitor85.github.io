@@ -6,6 +6,10 @@ a {
   color: #800080;
 }
 
+a:visited {
+  color: #ff0000;
+}
+
 html {
   background-color: #ffffff;
 }
