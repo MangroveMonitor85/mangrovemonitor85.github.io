@@ -44,14 +44,12 @@ span.bottom {
   color: #000080;
   text-align: center;
   font-size: 14px;
+  line-height: -20%;
 }
 
 span.contact {
   color: #000080;
   text-align: center;
   font-size: 14px;
+  line-height: -20%;
 }
-
-/*html {
-  color: red;
-}*/
