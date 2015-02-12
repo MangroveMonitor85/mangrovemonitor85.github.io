@@ -19,16 +19,18 @@ p.addy {
   line-height: 0%;
 }
 
+#container {
+  margin-left: 20%;
+}
+
 #col_1 {
   float: left;
-  height: 400px;
-  width: 400px;
+  width: 20%;
 }
 
 #col_2 {
   float: right;
-  height: 400px;
-  width: 400px;
+  width: 20%;
 }
 
 p.homepage {
