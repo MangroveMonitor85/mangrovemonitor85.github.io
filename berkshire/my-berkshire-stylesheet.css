@@ -1,3 +1,7 @@
+#header {
+  font-style: bold;
+}
+
 h3 {
   color: #000080;
 }
@@ -16,10 +20,6 @@ a:visited {
 
 html {
   background-color: #ffffff;
-}
-
-#header {
-  font-style: bold;
 }
 
 /*html {
