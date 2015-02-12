@@ -19,10 +19,9 @@ p.addy {
   line-height: 0%;
 }
 
-#container {
-  width: 2500;
-  margin-left: auto;
-  margin-right: auto;
+#wrapper {
+  width: 1200;
+  margin: 0 auto;
 }
 
 #left-column {
