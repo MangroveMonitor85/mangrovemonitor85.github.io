@@ -25,7 +25,15 @@ p.addy {
   margin-right: auto;
 }
 
+#col_1 {
+  float: left;
+  width: 400px;
+}
 
+#col_2 {
+  float: right
+  width: 400px;
+}
 
 p.homepage {
   font-size: 15;
