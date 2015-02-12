@@ -21,12 +21,12 @@ p.addy {
 
 #col_1 {
   float: left;
-  width: 600px;
+  width: 400px;
 }
 
 #col_2 {
   float: right;
-  width: 700px;
+  width: 400px;
 }
 
 p.homepage {
