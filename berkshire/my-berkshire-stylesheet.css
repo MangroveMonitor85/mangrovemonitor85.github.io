@@ -49,7 +49,7 @@ body { margin: 0; }
 
 li {
   line-height: 250%;
-  display: list-item;
+  display: inline;
 }
 
 p.homepage {
