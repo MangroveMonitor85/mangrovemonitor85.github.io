@@ -55,10 +55,16 @@ li
 	padding: 5px;
 }
 
+#techBlog
+{
+	font-family: Arial, sans-serif;
+	padding: 5px;
+}
+
 #techBlogLinks
 {
 	font-family: Arial, sans-serif;
-	padding-top: 5px;
+	padding: 5px;
 }
 
 /*#t1
