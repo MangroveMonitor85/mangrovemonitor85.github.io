@@ -46,11 +46,13 @@ li
 #github
 {
 	font-style: Arial sans-serif;
+	padding: 5px;
 }
 
 #twitter
 {
-	font-style: 'Avant Garde', sans-serif;
+	font-style: Arial, sans-serif;
+	padding: 5px;
 }
 
 /*#techBlogLinks
