@@ -1,6 +1,7 @@
 body
 {
-	background-color: #01aebf;
+	/*background-color: #01aebf;*/
+	background-image: img ("background.jpg");
 }
 
 #header
