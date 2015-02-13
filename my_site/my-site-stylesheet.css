@@ -32,6 +32,11 @@ li
 	padding-top: 10px;
 }
 
+ul.techBlogLinks
+{
+	padding-top: 0;
+}
+
 /*p.techBlog
 {
 	margin-top: 20px;
