@@ -43,35 +43,35 @@ li
 	padding-top: 10px;
 }
 
-ul li.github
+#github
 {
 	font-style: 'Avant Garde', sans-serif;
 }
 
-ul li.twitter
+#twitter
 {
 	font-style: 'Avant Garde', sans-serif;
 }
 
-ul.techBlogLinks
+#techBlogLinks
 {
 	font-style: 'Avant Garde', sans-serif;
 	padding-top: 0;
 }
 
-ul li ul li.t1
+#t1
 {
 	font-style: 'Avant Garde', sans-serif;
 	padding-top: 5px;
 }
 
-ul li ul li.t2
+#t2
 {
 	font-style: 'Avant Garde', sans-serif;
 	padding-top: 5px;
 }
 
-ul.cultBlogLinks
+#cultBlogLinks
 {
 	padding-top: 0;
 }
