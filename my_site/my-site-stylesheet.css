@@ -1,13 +1,13 @@
 body
 {
 	/*background-color: #01aebf;*/
-	background-image: img ("background.jpg");
+	background-image: "background.jpg";
 }
 
 #header
 {
 	text-align: center;
-	color: white;
+	color: black;
 }
 
 #headerBar
