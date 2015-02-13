@@ -51,25 +51,25 @@ li
 
 #twitter
 {
-	font-style: Arial, sans-serif;
+	font-family: Arial, sans-serif;
 	padding: 5px;
 }
 
-/*#techBlogLinks
+#techBlogLinks
 {
-	font-style: 'Avant Garde', sans-serif;
+	font-family: Arial, sans-serif;
 	padding-top: 0;
 }
 
-#t1
+/*#t1
 {
-	font-style: 'Avant Garde', sans-serif;
+	font-family: Arial, sans-serif;
 	padding-top: 5px;
-}
+}*/
 
 #t2
 {
-	font-style: 'Avant Garde', sans-serif;
+	font-family: Arial, sans-serif;
 	padding-top: 5px;
 }
 
@@ -80,9 +80,9 @@ li
 
 #c1
 {
-	font-style: 'Avant Garde', sans-serif;
+	font-family: Arial, sans-serif;
 	padding-top: 5px;
-}*/
+}
 
 
 
