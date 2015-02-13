@@ -47,6 +47,11 @@ ul.techBlogLinks
 	padding-top: 5px;
 }
 
+ul.cultBlogLinks
+{
+	padding-top: 0;
+}
+
 #c1
 {
 	padding-top: 5px;
