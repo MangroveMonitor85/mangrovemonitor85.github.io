@@ -1,7 +1,6 @@
-body
+html
 {
-	/*background-color: #01aebf;*/
-	background-image: "site.jpg";
+	background: url(b2.jpg);
 }
 
 #header
