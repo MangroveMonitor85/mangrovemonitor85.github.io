@@ -9,7 +9,7 @@ body
 }
 
 @font-face {
-    font-family: My Underwood;
+    font-family: "My Underwood";
     src: url("../Fonts/MyUnderwood.ttf"));
     /*font-weight: bold;*/
 }
