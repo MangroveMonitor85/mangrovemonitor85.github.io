@@ -8,3 +8,9 @@ p.header
 	text-align: center;
 	color: white;
 }
+
+#headerBar
+{
+	height: 2px;
+	width: 100%;
+}
