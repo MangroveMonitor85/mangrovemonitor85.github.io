@@ -41,12 +41,12 @@ li
 	padding-top: 10px;
 }
 
-#github
+li.github
 {
 	font-style: 'Avant Garde', sans-serif;
 }
 
-#twitter
+li.twitter
 {
 	font-style: 'Avant Garde', sans-serif;
 }
