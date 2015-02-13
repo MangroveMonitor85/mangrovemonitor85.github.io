@@ -53,9 +53,13 @@ li
 #twitter
 {
 	font-family: Arial, sans-serif;
-	width: 45px;
-    height: 45px;
 	/*padding: 5px;*/
+}
+
+img.resize
+{
+	width: 40px;
+	height: 40px;
 }
 
 #techBlogList
