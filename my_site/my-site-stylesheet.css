@@ -16,9 +16,9 @@ body
 
 #header
 {
-	font-variant: Avant Garde;
-	font-style: bold;
+	font-family: Avant Garde;
 	font-size: 15px;
+	font-style: bold;
 	text-align: center;
 	color: black;
 }
