@@ -39,25 +39,25 @@ ul
 
 li
 {
-	/*padding-top: 10px;*/
+	padding:5px;
 }
 
 #github
 {
 	font-family: Arial, sans-serif;
-	padding: 5px;
+	/*padding: 5px;*/
 }
 
 #twitter
 {
 	font-family: Arial, sans-serif;
-	padding: 5px;
+	/*padding: 5px;*/
 }
 
 #techBlogList
 {
 	font-family: Arial, sans-serif;
-	padding: 5px;
+	/*padding: 5px;*/
 }
 
 #techBlogLinks
