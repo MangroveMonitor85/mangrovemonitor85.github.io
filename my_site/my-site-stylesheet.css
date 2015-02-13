@@ -46,10 +46,14 @@ ul li ul li.t1
 ul li ul li.t2
 {
 	padding-top: 5px;
-	font-weight: italic;
+	font-style: italic;
 }
 
 ul li ul li.c1
+{
+	padding-top: 5px;
+	font-style: italic;
+}
 
 /*p.techBlog
 {
