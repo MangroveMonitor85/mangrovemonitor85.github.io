@@ -8,15 +8,15 @@ body
   	-o-background-size: cover;8?*/
 }
 
-@font-face {
+/*@font-face {
     font-family: 'My Underwood';
     src: url(../Fonts/MyUnderwood.ttf) format ('truetype');
     /*font-weight: bold;*/
-}
+}*/
 
 #header
 {
-	font-variant: MyUnderwood;
+	font-variant: Avant Garde;
 	font-style: bold;
 	text-align: center;
 	color: black;
