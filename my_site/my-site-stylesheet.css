@@ -44,6 +44,9 @@ li
 #github
 {
 	font-family: Arial, sans-serif;
+	width: 45px;
+    height: 45px;
+    background: url(hithub_button.jpg) 0 0;
 	/*padding: 5px;*/
 }
 
