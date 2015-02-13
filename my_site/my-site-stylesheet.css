@@ -37,15 +37,16 @@ ul.techBlogLinks
 	padding-top: 0;
 }
 
-#t1
+ul li.t1
 {
 	padding-top: 5px;
 	font-weight: italic;
 }
 
-#t2
+ul li.t2
 {
 	padding-top: 5px;
+	font-weight: italic;
 }
 
 /*p.techBlog
