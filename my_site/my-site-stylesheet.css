@@ -11,7 +11,7 @@ body
 /*@font-face {
     font-family: 'My Underwood';
     src: url(../Fonts/MyUnderwood.ttf) format ('truetype');
-    /*font-weight: bold;*/
+    /*font-weight: bold;
 }*/
 
 p.header
@@ -44,6 +44,7 @@ li
 ul.techBlogLinks
 {
 	padding-top: 0;
+	font-style: 'Arial';
 }
 
 #t1
