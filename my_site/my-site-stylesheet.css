@@ -1,9 +1,7 @@
-#background
+body
 {
-	background-image: url(world-background.jpg) no-repeat center center fixed;
-	background-attachment: fixed;
-	height: 100%;
-	width: 100%;
+	background-image: url(world-background.jpg); /*no-repeat center center fixed*/
+	background-attachment: fixed; 
 	/*background-size: 100%;
 	-webkit-background-size: cover;
   	-moz-background-size: cover;
