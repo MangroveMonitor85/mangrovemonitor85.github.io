@@ -1,6 +1,6 @@
 body
 {
-	background-image: local (mangrovemonitor85.github.io/my_site/background.jpg) no-repeat center center fixed;
+	background-image: local (mangrovemonitor85.github.io/images/world-background.jpg) no-repeat center center fixed;
 	background-attachment: fixed;
 	/*background-size: 100%;
 	-webkit-background-size: cover;
@@ -55,13 +55,6 @@ li
 	font-family: Arial, sans-serif;
 	/*padding: 5px;*/
 }
-
-/*img.resize
-{
-	width: 60px;
-	height: 60px;
-	margin-left: 10px;
-}*/
 
 #techBlogList
 {
