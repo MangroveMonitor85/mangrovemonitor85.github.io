@@ -1,7 +1,9 @@
-body
+#background
 {
-	background-image: url(mangrovemonitor85.github.io/images/world-background.jpg) no-repeat center center fixed;
+	background-image: url("../images/world-background.jpg") no-repeat center center fixed;
 	background-attachment: fixed;
+	height: 100%;
+	width: 100%;
 	/*background-size: 100%;
 	-webkit-background-size: cover;
   	-moz-background-size: cover;
