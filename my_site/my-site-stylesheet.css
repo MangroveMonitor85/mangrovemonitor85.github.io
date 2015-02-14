@@ -1,6 +1,6 @@
 #background
 {
-	background-image: url("../../images/world-background.jpg") no-repeat center center fixed;
+	background-image: url("world-background.jpg") no-repeat center center fixed;
 	background-attachment: fixed;
 	height: 100%;
 	width: 100%;
