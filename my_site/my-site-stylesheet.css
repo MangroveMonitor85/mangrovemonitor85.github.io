@@ -1,6 +1,6 @@
 body
 {
-	background-image: local (mangrovemonitor85.github.io/images/world-background.jpg) no-repeat center center fixed;
+	background-image: url(mangrovemonitor85.github.io/images/world-background.jpg) no-repeat center center fixed;
 	background-attachment: fixed;
 	/*background-size: 100%;
 	-webkit-background-size: cover;
