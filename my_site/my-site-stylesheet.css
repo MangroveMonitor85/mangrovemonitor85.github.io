@@ -103,10 +103,11 @@ li
 	padding-bottom: auto;
 }*/
 
-.iconBar
+ul.iconBar
 {
 	list-style-type: none;
 	float: right;
+	display: block;
 	height: 80px;
 	width: 300px;
 	margin: 0;
