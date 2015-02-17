@@ -1,9 +1,9 @@
 body
 {
-	background-image: url(anchor_theme.jpg); /*no-repeat center center fixed*/
-	background-attachment: fixed; 
+	background-image: url(anchor_theme.jpg) no-repeat center center fixed;
+	/*background-attachment: fixed; 
 	background-size: 100%;
-	/*-webkit-background-size: cover;
+	-webkit-background-size: cover;
   	-moz-background-size: cover;
   	-o-background-size: cover;*/
 }
