@@ -108,6 +108,7 @@ li
 
 #footerBar
 {
+	text-align: center;
 	border: 1px solid black;
 	height: 75px;
 	width: 150px;
