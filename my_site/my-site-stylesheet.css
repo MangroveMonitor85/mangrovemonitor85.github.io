@@ -1,6 +1,6 @@
 body
 {
-	background-image: url(diamond_anchor.jpg); /*no-repeat center center fixed;/*
+	background-image: url(diamond_anchor.jpg); /*no-repeat center center fixed;*/
 	position: fixed;
 	z-index: -1;
 	/*background-attachment: fixed; 
