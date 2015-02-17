@@ -86,6 +86,10 @@ li
 	height: 75px;
 	margin-top: 275px;
 	width: 100%;
+	right: 0;
+	left: 0;
+	bottom: 0;
+	position: fixed;
 	/*float: right;
 	height: 75px;
 	width: 300px;
