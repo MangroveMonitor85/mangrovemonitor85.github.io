@@ -1,4 +1,4 @@
-body
+/*body
 {
 	background-image: url(diamond_anchor.jpg) no-repeat center center fixed;
 	/*position: fixed;
@@ -7,6 +7,20 @@ body
 	-webkit-background-size: cover;
   	-moz-background-size: cover;
   	-o-background-size: cover;*/
+}*/
+
+#background
+{
+	height: 100%;
+	width: 100%;
+	position: fixed;
+
+}
+
+div.stretch
+{
+	height: 100%;
+	width: 100%;
 }
 
 #header
