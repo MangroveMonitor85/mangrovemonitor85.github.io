@@ -114,6 +114,7 @@ li
 	float: right;
 	/*margin-top: 50%;
 	margin-right: 2.5%;*/
+	position: absolute;
 	bottom: 0px;
 	padding: 10px 30px;
 
