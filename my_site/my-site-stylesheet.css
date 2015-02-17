@@ -127,7 +127,8 @@ li
 
 #twitIcon
 {
-	
+
 	bottom: 10px;
-	margin-left: 80%;
+	/*margin-right: 80%;*/
+	float: right;
 }
