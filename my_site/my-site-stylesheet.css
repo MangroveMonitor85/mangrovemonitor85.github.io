@@ -1,6 +1,6 @@
 body
 {
-	background-image: url(anchor_theme.jpg); /*no-repeat center center fixed;*/
+	background-image: url(anchor_theme.jpg) no-repeat center center fixed;
 	position: fixed;
 	z-index: -1;
 	/*background-attachment: fixed; 
