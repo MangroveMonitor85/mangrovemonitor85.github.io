@@ -83,16 +83,24 @@ li
 #footerBar
 {
 	border: 1px solid black;
-	float: right;
+	height: 75px;
+	width: 100%;
+	/*float: right;
 	height: 75px;
 	width: 300px;
 	margin-top: 275px;
-	margin-right: 2.5%;
+	margin-right: 2.5%;*/
 }
 
-#linkIcons
+/*#linkIcons
 {
 	text-align: center;
 	padding-top: auto;
 	padding-bottom: auto;
+}*/
+
+#gitIcon
+{
+	padding: 10px;
+
 }
