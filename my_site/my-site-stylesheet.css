@@ -112,8 +112,11 @@ li
 	height: 75px;
 	width: 300px;
 	float: right;
-	margin-top: 50%;
-	margin-right: 2.5%;
+	/*margin-top: 50%;
+	margin-right: 2.5%;*/
+	bottom: 0px;
+	padding: 10px 30px;
+
 }
 
 #linkIcons
