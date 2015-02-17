@@ -1,6 +1,6 @@
 body
 {
-	background-image: url(diamond_anchor.jpg); /*no-repeat center center fixed;*/
+	background-image: url(diamond_anchor.jpg) no-repeat center center fixed;
 	/*position: fixed;
 	/*background-attachment: fixed; 
 	background-size: 100%;
