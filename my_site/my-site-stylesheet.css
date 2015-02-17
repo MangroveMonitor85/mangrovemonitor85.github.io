@@ -109,9 +109,9 @@ li
 #footerBar
 {
 	border: 1px solid black;
+	float: right;
 	height: 75px;
 	width: 300px;
-	float: right;
 	margin-bottom: 5%;
 	margin-right: 2.5%;
 }
