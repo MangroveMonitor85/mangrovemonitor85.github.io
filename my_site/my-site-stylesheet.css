@@ -24,6 +24,7 @@ body
 #headerBar
 {
 	background: black;
+	right: 0;
 	height: 2px;
 	width: 100%;
 }
