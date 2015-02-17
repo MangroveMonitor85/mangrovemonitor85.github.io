@@ -89,7 +89,6 @@ li
 	/*float: right;
 	height: 75px;
 	width: 300px;
-	
 	margin-right: 2.5%;*/
 }
 
@@ -99,6 +98,15 @@ li
 	padding-top: auto;
 	padding-bottom: auto;
 }*/
+
+ul
+{
+	list-style-type: none;
+	height: 80px;
+	width: 300px;
+	margin: 0;
+	padding: 0;
+}
 
 #gitIcon
 {
