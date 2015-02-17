@@ -1,6 +1,7 @@
 body
 {
-	background-image: url(surf_anchor.jpg) no-repeat center center fixed;
+	background-image: url(surf_anchor.jpg); /*no-repeat center center fixed;*/
+	
 	/*background-attachment: fixed; 
 	background-size: 100%;
 	-webkit-background-size: cover;
