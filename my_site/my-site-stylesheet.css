@@ -111,6 +111,7 @@ li
 	border: 1px solid black;
 	height: 75px;
 	width: 300px;
+	float: right;
 	margin-top: 20%;
 	margin-left: 50%;
 }
