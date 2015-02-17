@@ -108,10 +108,16 @@ li
 
 #footerBar
 {
-	text-align: center;
 	border: 1px solid black;
 	height: 75px;
 	width: 150px;
-	margin-top: 20%;
+	margin-top: 50%;
 	margin-right: 50%;
+}
+
+#linkIcons
+{
+	text-align: center;
+	margin-top: auto;
+	margin-bottom: auto;
 }
