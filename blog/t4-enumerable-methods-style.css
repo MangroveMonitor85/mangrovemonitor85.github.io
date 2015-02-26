@@ -20,6 +20,41 @@
 
 }
 
+#codeSnip1
+{
+  border: 1px solid black;
+  height: 7em;
+  width: 100%;
+}
+
+.codeSnip
+{
+  font-family: monaco, Consolas, 'Lucida Console', monospace;
+  font-size:13px;
+}
+
+span.tabCode
+{
+  text-indent: 10px;
+}
+
+#forLoop
+{
+  font-family: monaco, Consolas, 'Lucida Console', monospace;
+  font-size:13px;
+  float: left;
+  width: 40%;
+  margin-left: 10em;
+}
+
+#eachMethod
+{
+  font-family: monaco, Consolas, 'Lucida Console', monospace;
+  font-size:13px;
+  float: right;
+  width: 40%;
+}
+
 .footer {
   text-align: center;
   font-style: Arial Sans-serif;

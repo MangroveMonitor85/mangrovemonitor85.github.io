@@ -16,11 +16,18 @@
     </div>
 
     <div class="blog_content">
-      <p></p>
+      <p>The Enumerable methods in Ruby are a set of methods that iterate through, search, sort and manipulate a collection of data.  Enumerable methods can also be chained allowing several methods to work on the same object in the same line, instead of giving each method it's own line.  These advantages allow code to be much more concise, elegant and readable, giving Ruby it's reputation for "glittery" code.  Let's take a look below at two code snippets that accomplish the same function.  On the bottom-left is a standard <span class="codeSnip">for loop</span> iterating through an entire array and on the bottom-right is the enumerable method <span class="codeSnip">#each</span>.</p>
 
-      <p></p>
+      <div id="forLoop">
+        <p>for x in 0...array.length
+        <p><span class="tabCode">puts array[x]</span></p>
+        <p>end</p>
+      </div>
 
-      <p></p>
+      <div id="eachMethod"> 
+        <p>array.each { |x| puts x }</p>
+      </div>
+
     </div>
 
     <footer class="footer">
@@ -29,3 +36,9 @@
   </body>
 
 </html>
+
+for x in 0...array.length
+  puts array[x]
+end
+
+array.each { |x| puts x }
