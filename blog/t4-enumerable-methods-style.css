@@ -1,24 +1,17 @@
 .header
 {
   border: 1px solid black;
-  background-color: gray;
+  background-color: #eee;
   text-align: center;
   width: 100%;
   height: 3em;
   font-size: 30px;
 }
 
-.blog_content
-{
-  float: right;
-  width: 75%;
-}
-
 .nav_bar
 {
   float: left;
   width: 25%;
-  margin-top: 2em;
 }
 
 .listHeader
@@ -33,11 +26,20 @@
   line-height: .75em;
 }
 
+.blog_content
+{
+  font-family: "PT Sans","Helvetica Neue","Helvetica",Arial,sans-serif;
+  float: right;
+  width: 75%;
+}
 .codeSnippet
 {
   height: 6em;
   width: 100%;
   line-height: .50em;
+
+  background: #eee;
+  font-family: Courier, monospace;
 }
 
 .codeType
@@ -51,16 +53,8 @@
   margin-left: 25px;
 }
 
-body
-{
-  font-family: "PT Sans","Helvetica Neue","Helvetica",Arial,sans-serif;
-}
-
 #forLoop
 {
-  border: 1px solid grey;
-  background: #eee;
-  font-family: Courier, monospace;
   font-size:15px;
   float: left;
   height: 87.25%;
@@ -71,7 +65,7 @@ body
 
 #eachMethod
 {
-  border: 1px solid grey;
+  /*border: 1px solid grey;*/
   background: #eee;
   font-family: Courier, monospace;
   font-size:15px;
@@ -83,7 +77,7 @@ body
 
 #mapMethod
 {
-  border: 1px solid grey;
+  /*border: 1px solid grey;*/
   background: #eee;
   font-family: Courier, monospace;
   font-size: 15px;
@@ -94,7 +88,7 @@ body
 
 #groupMethod
 {
-  border: 1px solid grey;
+  /*border: 1px solid grey;*/
   background: #eee;
   font-family: Courier, monospace;
   font-size: 15px;
@@ -105,7 +99,7 @@ body
 
 #cycleMethod
 {
-  border: 1px solid grey;
+  /*border: 1px solid grey;*/
   background: #eee;
   font-family: Courier, monospace;
   font-size: 15px;

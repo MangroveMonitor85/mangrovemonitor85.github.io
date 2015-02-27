@@ -6,78 +6,80 @@
     <link type="text/css" rel="stylesheet"  href="t4-enumerable-methods-style.css"/>
   </head>
 
-  <body>
+  <main>
+    <body>
 
-    <div class="header">
-      <p>Enumerable Methods</p>
-    </div>
- 
-    <div class="nav_bar">
-      <p class="listHeader">Technical Blog</p>
-      <p><a href="http://mangrovemonitor85.github.io/blog/t1-git-blog" class="blogLinks">Blog 1: Git Blog</a></p>
-      <p><a href="http://mangrovemonitor85.github.io/blog/t2-css-design.html" class="blogLinks">Blog 2: CSS Design</a></p>
-      <p><a href="http://mangrovemonitor85.github.io/blog/t3-arrays-hashes.html" class="blogLinks">Blog 3: Arrays vs. Hashes</a></p>
-      <p><a href="http://mangrovemonitor85.github.io/blog/t4-enumerable-methods.html" class="blogLinks">Blog 4: Enumerable Methods</a></p>
-      <p class="listHeader">Cultural Blog</p>
-      <p><a href="http://mangrovemonitor85.github.io/blog/c1-chefs-kitchen.html" class="blogLinks">Blog 1: Learning How to Learn</a></p>
-      <p><a href="http://mangrovemonitor85.github.io/blog/c3-thinking-style.html" class="blogLinks">Blog 2: My Thinking Style</a></p>
-      <p><a href=""></a></p>
-    </div>
-
-    <div class="blog_content">
-      <p>The Enumerable methods in Ruby are a set of methods that traverse, search, sort and manipulate a collection of objects (arrays, hashes).  Enumerable methods can also be chained allowing several methods to work on the same object in the same line, instead of giving each method it's own line.  These advantages allow code to be much more concise, elegant and readable, giving Ruby it's reputation for "glittery" code.  Let's take a look below at two code snippets that accomplish the same function.</p>
-
-      <div class="codeSnippet">
-        <div id="forLoop">
-          <p>for x in 0...array.length
-          <p><span class="indentCode">puts array[x]</span></p>
-          <p>end</p>
-        </div>
-
-        <div id="eachMethod"> 
-          <p>array.each { |x| puts x }</p>
-        </div>
+      <div class="header">
+        <p>Enumerable Methods</p>
       </div>
-      
-      <p>On the top-left is a standard <span class="codeType">for</span> loop iterating through an entire array and on the top-right is the <span class="codeType">Enumerable</span> method <span class="codeType">#each</span> that does the exact same.  It almost seems like the <span class="codeType">for</span> loop is obsolete because the enumerable method is much easier to read and obviously much more elegant.  There are a few isolated instances where loops are used, but in Ruby these enumerable methods are vastly preferred.</p>
-
-      <p>The <span class="codeType">Enumerable#map</span> method accepts a block of code and manipulates each element therein.  The methods <span class="codeType">#map</span> and <span class="codeType">#collect</span> are exactly the same method except with a different name.  The <span class="codeType">#map</span> method returns a new array filled with whatever the block returned and <span class="codeType">#map!</span> returns the mutated original array.</p>
-
-      <div class="codeSnippet">
-        <div id="mapMethod">
-          <p>array = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]</p>
-          <p>array.map { |x| print "#{x * x} " }</p>
-          <p>=>  1 4 9 16 25 36 49 64 81 100</p>
-        </div>
+   
+      <div class="nav_bar">
+        <p>2/26/2015</p>
+        <p class="listHeader">Technical Blog</p>
+        <p><a href="http://mangrovemonitor85.github.io/blog/t1-git-blog" class="blogLinks">Blog 1: Git Blog</a></p>
+        <p><a href="http://mangrovemonitor85.github.io/blog/t2-css-design.html" class="blogLinks">Blog 2: CSS Design</a></p>
+        <p><a href="http://mangrovemonitor85.github.io/blog/t3-arrays-hashes.html" class="blogLinks">Blog 3: Arrays vs. Hashes</a></p>
+        <p><a href="http://mangrovemonitor85.github.io/blog/t4-enumerable-methods.html" class="blogLinks">Blog 4: Enumerable Methods</a></p>
+        <p class="listHeader">Cultural Blog</p>
+        <p><a href="http://mangrovemonitor85.github.io/blog/c1-chefs-kitchen.html" class="blogLinks">Blog 1: Learning How to Learn</a></p>
+        <p><a href="http://mangrovemonitor85.github.io/blog/c3-thinking-style.html" class="blogLinks">Blog 2: My Thinking Style</a></p>
+        <p><a href=""></a></p>
       </div>
 
-      <p>The <span class="codeType">Enumerable#group_by</span> method essentially breaks and regroups a collection of objects into different groups based on some user-given criteria.  It iterates through the block and returns a hash with the key being a boolean and the value being the array of data matching the criteria.</p>
+      <div class="blog_content">
+        <p>The Enumerable methods in Ruby are a set of methods that traverse, search, sort and manipulate a collection of objects (arrays, hashes).  Enumerable methods can also be chained allowing several methods to work on the same object in the same line, instead of giving each method it's own line.  These advantages allow code to be much more concise, elegant and readable, giving Ruby it's reputation for "glittery" code.  Let's take a look below at two code snippets that accomplish the same function.</p>
 
-      <div class="codeSnippet">
-        <div id="groupMethod">
-          <p>array = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]</p>
-          <p>puts array.group_by { |x| x > 5}</p>
-          <p>=>  {false=>[1, 2, 3, 4, 5], true=>[6, 7, 8, 9, 10]}</p>
+        <div class="codeSnippet">
+          <div id="forLoop">
+            <p>for x in 0...array.length
+            <p><span class="indentCode">puts array[x]</span></p>
+            <p>end</p>
+          </div>
+
+          <div id="eachMethod"> 
+            <p>array.each { |x| puts x }</p>
+          </div>
         </div>
+        
+        <p>On the top-left is a standard <span class="codeType">for</span> loop iterating through an entire array and on the top-right is the <span class="codeType">Enumerable</span> method <span class="codeType">#each</span> that does the exact same.  It almost seems like the <span class="codeType">for</span> loop is obsolete because the enumerable method is much easier to read and obviously much more elegant.  There are a few isolated instances where loops are used, but in Ruby these enumerable methods are vastly preferred.</p>
+
+        <p>The <span class="codeType">Enumerable#map</span> method accepts a block of code and manipulates each element therein.  The methods <span class="codeType">#map</span> and <span class="codeType">#collect</span> are exactly the same method except with a different name.  The <span class="codeType">#map</span> method returns a new array filled with whatever the block returned and <span class="codeType">#map!</span> returns the mutated original array.</p>
+
+        <div class="codeSnippet">
+          <div id="mapMethod">
+            <p>array = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]</p>
+            <p>array.map { |x| print "#{x * x} " }</p>
+            <p>=>  1 4 9 16 25 36 49 64 81 100</p>
+          </div>
+        </div>
+
+        <p>The <span class="codeType">Enumerable#group_by</span> method essentially breaks and regroups a collection of objects into different groups based on some user-given criteria.  It iterates through the block and returns a hash with the key being a boolean and the value being the array of data matching the criteria.</p>
+
+        <div class="codeSnippet">
+          <div id="groupMethod">
+            <p>array = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]</p>
+            <p>puts array.group_by { |x| x > 5}</p>
+            <p>=>  {false=>[1, 2, 3, 4, 5], true=>[6, 7, 8, 9, 10]}</p>
+          </div>
+        </div>
+
+        <p>The <span class="codeType">Enumerable#cycle</span> method cycles through a collection of objects n amount of times.  The method will run infinitely if n is set at nil or no value is set at all.  If the user sets a non-positive number or does not set a value then the method does nothing.  
+
+          infinitely until the user sets some kind of break condition.</p>
+
+        <div class="codeSnippet">
+          <div id="cycleMethod">
+            <p>array = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]</p>
+            <p>array.cycle { |x| print "#{x} " }</p>
+            <p>=>  1 2 3 4 5 6 7 8 9 10......</p>
+          </div>
+        </div>
+
       </div>
 
-      <p>The <span class="codeType">Enumerable#cycle</span> method cycles through a collection of objects n amount of times.  The method will run infinitely if n is set at nil or no value is set at all.  If the user sets a non-positive number or does not set a value then the method does nothing.  
-
-        infinitely until the user sets some kind of break condition.</p>
-
-      <div class="codeSnippet">
-        <div id="cycleMethod">
-          <p>array = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]</p>
-          <p>array.cycle { |x| print "#{x} " }</p>
-          <p>=>  1 2 3 4 5 6 7 8 9 10......</p>
-        </div>
-      </div>
-
-    </div>
-
-    <footer class="footer">
-      <p id="footerText">Piara's Blog, 2015</p>
-    <footer>
-  </body>
-
+      <footer class="footer">
+        <p id="footerText">Piara's Blog, 2015</p>
+      <footer>
+    </body>
+  </main>
 </html>
