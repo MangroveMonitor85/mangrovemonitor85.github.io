@@ -21,6 +21,12 @@
   width: 20%;
 }
 
+.dateTag
+{
+  text-align: center;
+  font-size: 18px;
+}
+
 .listHeader
 {
   font-size: 18px;
