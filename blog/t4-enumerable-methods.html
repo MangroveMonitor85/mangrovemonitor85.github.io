@@ -16,29 +16,31 @@
     </div>
 
     <div class="blog_content">
-      <p>The Enumerable methods in Ruby are a set of methods that iterate through, search, sort and manipulate a collection of data.  Enumerable methods can also be chained allowing several methods to work on the same object in the same line, instead of giving each method it's own line.  These advantages allow code to be much more concise, elegant and readable, giving Ruby it's reputation for "glittery" code.  Let's take a look below at two code snippets that accomplish the same function.  On the bottom-left is a standard <span class="codeSnip">for loop</span> iterating through an entire array and on the bottom-right is the enumerable method <span class="codeSnip">#each</span>.</p>
+      <p>The Enumerable methods in Ruby are a set of methods that traverse, search, sort and manipulate a collection of objects (arrays, hashes).  Enumerable methods can also be chained allowing several methods to work on the same object in the same line, instead of giving each method it's own line.  These advantages allow code to be much more concise, elegant and readable, giving Ruby it's reputation for "glittery" code.  Let's take a look below at two code snippets that accomplish the same function.</p>
 
-      <div id="forLoop">
+      <div id="codeSnippet1">
+        <div id="forLoop">
         <p>for x in 0...array.length
         <p><span class="tabCode">puts array[x]</span></p>
         <p>end</p>
-      </div>
+        </div>
 
-      <div id="eachMethod"> 
+        <div id="eachMethod"> 
         <p>array.each { |x| puts x }</p>
+        </div>
       </div>
+      
+      <p>On the top-left is a standard <span class="codeSnip">for</span> loop iterating through an entire array and on the top-right is the <span class="codeSnip">Enumerable</span> method <span class="codeSnip">#each</span> that does the exact same.  It almost seems like the <span class="codeSnip">for</span> loop is obsolete because the enumerable method is much easier to read and obviously much more elegant.  There are a few isolated instances where loops are used, but in Ruby these enumerable methods are vastly preferred.</p>
+
+      <p>The <span class="codeSnip">Enumerable#map</span> method accepts a block of code and manipulates each element therein.  The methods <span class="codeSnip">#map</span> and <span class="codeSnip">#collect</span> are exactly the same method except with a different name.  The <span class="codeSnip">#map</span> method returns a new array filled with whatever the block returned and <span class="codeSnip">#map!</span> returns the mutated original array.</p>
+
+      <p>The <span class="codeSnip">Enumerable#group_by</span> method essentially breaks and regroups a collection of objects into different groups based on some user-given criteria.</p>
 
     </div>
 
     <footer class="footer">
-      <p>Piara's Blog</p>
+      <p id="footerText">Piara's Blog, 2015</p>
     <footer>
   </body>
 
 </html>
-
-for x in 0...array.length
-  puts array[x]
-end
-
-array.each { |x| puts x }

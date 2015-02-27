@@ -20,39 +20,55 @@
 
 }
 
-#codeSnip1
+#codeSnippet1
 {
   border: 1px solid black;
-  height: 7em;
+  height: 6em;
   width: 100%;
 }
 
 .codeSnip
 {
-  font-family: monaco, Consolas, 'Lucida Console', monospace;
-  font-size:13px;
+  font-family: Courier, monospace;
+  /*font-family: monaco, Consolas, 'Lucida Console', monospace;*/
+  font-size:15px;
 }
 
 span.tabCode
 {
-  text-indent: 10px;
+  margin-left: 25px;
+}
+
+body
+{
+  font-family: "PT Sans","Helvetica Neue","Helvetica",Arial,sans-serif;
 }
 
 #forLoop
 {
-  font-family: monaco, Consolas, 'Lucida Console', monospace;
-  font-size:13px;
+  border: 1px solid grey;
+  background: #eee;
+  font-family: Courier, monospace;
+  /*font-family: monaco, Consolas, 'Lucida Console', monospace;*/
+  font-size:15px;
   float: left;
-  width: 40%;
+  height: 87.25%;
+  width: 30%;
   margin-left: 10em;
+  padding: 5px;
 }
 
 #eachMethod
 {
-  font-family: monaco, Consolas, 'Lucida Console', monospace;
-  font-size:13px;
+  border: 1px solid grey;
+  background: #eee;
+  font-family: Courier, monospace;
+  /*font-family: monaco, Consolas, 'Lucida Console', monospace;*/
+  font-size:15px;
   float: right;
-  width: 40%;
+  width: 30%;
+  margin-right: 10em;
+  padding: 5px;
 }
 
 .footer {
@@ -62,4 +78,10 @@ span.tabCode
   height: 5em;
   border: 1px solid black;
   margin-top: 90%;
+}
+
+#footerText
+{
+  font-size: 30px;
+  margin-top: 1em;
 }
