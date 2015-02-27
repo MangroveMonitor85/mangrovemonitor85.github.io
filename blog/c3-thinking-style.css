@@ -1,51 +1,50 @@
-.header 
+.header
 {
-  text-align: center;
   border: 1px solid black;
-  background-color: gray;
+  background-color: #eee;
+  text-align: center;
   width: 100%;
   height: 3em;
   font-size: 30px;
 }
 
+.nav_bar
+{
+  float: left;
+  width: 20%;
+}
+
+.listHeader
+{
+  font-size: 18px;
+  text-decoration: underline;
+}
+
+.blogLinks
+{
+  padding-left: 1.5em;
+  line-height: .75em;
+}
+
 .blog_content
 {
+  font-family: "PT Sans","Helvetica Neue","Helvetica",Arial,sans-serif;
   float: right;
   width: 80%;
 }
 
-#ex1
+.footer
 {
-  font-family: monaco, Consolas, 'Lucida Console', monospace;
-  font-size: 12px;
-  text-align: center;
-}
-
-#ex1A
-{
-  font-size: 15px;
-  text-align: center;
-}
-
-#hash
-{
-  font-family: monaco, Consolas, 'Lucida Console', monospace;
-  font-size:12px;
-  text-align: center;
-}
-
-.nav_bar {
-
-  float: left;
-  width: 20%;
-
-}
-
-.footer {
   text-align: center;
   font-style: Arial Sans-serif;
   width: 100%;
   height: 5em;
   border: 1px solid black;
   margin-top: 90%;
+}
+
+#footerText
+{
+  font-size: 30px;
+  margin-top: 1em;
 }
