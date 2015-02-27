@@ -3,34 +3,52 @@
   <head>
     <title>Piara's Tech Blog</title>
     <meta charset="UTF-8">
-    <link type="text/css" rel="stylesheet"  href="t3-arrays-hashes-stylesheet.css"/>
+    <link type="text/css" rel="stylesheet" href="t3-arrays-hashes-stylesheet.css"/>
   </head>
 
-  <body>
+  <main>
+    <body>
+      <div class="header">
+        <p>Arrays vs. Hashes</p>
+      </div>
+   
+      <div class="nav_bar">
+        <p id="dateTag">2/22/2015</p>
+        <p class="listHeader">Technical Blog</p>
+        <p><a href="http://mangrovemonitor85.github.io/blog/t1-git-blog" class="blogLinks">Blog 1: Git Blog</a></p>
+        <p><a href="http://mangrovemonitor85.github.io/blog/t2-css-design.html" class="blogLinks">Blog 2: CSS Design</a></p>
+        <p><a href="http://mangrovemonitor85.github.io/blog/t3-arrays-hashes.html" class="blogLinks">Blog 3: Arrays vs. Hashes</a></p>
+        <p><a href="http://mangrovemonitor85.github.io/blog/t4-enumerable-methods.html" class="blogLinks">Blog 4: Enumerable Methods</a></p>
+        <p class="listHeader">Cultural Blog</p>
+        <p><a href="http://mangrovemonitor85.github.io/blog/c1-chefs-kitchen.html" class="blogLinks">Blog 1: Learning How to Learn</a></p>
+        <p><a href="http://mangrovemonitor85.github.io/blog/c3-thinking-style.html" class="blogLinks">Blog 2: My Thinking Style</a></p>
+        <p><a href=""></a></p>
+      </div>
 
-    <div class="header">
-      <p>Arrays vs. Hashes</p>
-    </div>
- 
-    <div class="nav_bar">
-    </div>
+      <div class="blog_content">
+        <p>Arrays and hashes are two elements that are used to store data of any type.  Hashes and arrays are incredibly useful in programming and are very commonly utilized.  Even though, they seem to serve the same function, there are several differences between arrays and hashes, of which, I will discuss.</p>
 
-    <div class="blog_content">
-      <p>Arrays and hashes are two elements that are used to store data of any type.  Hashes and arrays are incredibly useful in programming and are very commonly utilized.  Even though, they seem to serve the same function, there are several differences between arrays and hashes, of which, I will discuss.</p>
+        <p>An array is an integer-indexed collection of objects of any type.  Arrays can hold any data type and can even hold arrays!  This is what makes them so flexible, even the data types held in a particular array don't even have to match.  You can have floats, ints, strings and arrays all within a single array.  Array elements are indexed from 0 upwards.  The first element in an array starts at 0, the next element at 1 and so forth.</p>
 
-      <p>An array is an integer-indexed collection of objects of any type.  Arrays can hold any data type and can even hold arrays!  This is what makes them so flexible, even the data types held in a particular array don't even have to match.  You can have floats, ints, strings and arrays all within a single array.  Array elements are indexed from 0 upwards.  The first element in an array starts at 0, the next element at 1 and so forth.</p>
-      <p id="ex1">my_array = [ 1, 2, 3, 4, 5 ]</p>
-      <p id="ex1A">elements  =   [_0_|_1_|_2_|_3_|_4_]</p>
-      <p>This can be a little confusing to people just learning arrays, but they will start to make sense once you start using them.  The contents of an array can be manipulated using methods or by directly manipulating the index elements.</p>
+        <div id="codeSnippet">
+          <p id="array">my_array = [ 1, 2, 3, 4, 5 ]</p>
+          <p id="array">elements  =   [_0_|_1_|_2_|_3_|_4_]</p>
+        </div>
 
-      <p>Hashes are incredibly useful when you have data that are paired together, that's what separates them from arrays.  These paired data are called key and value.  Hashes are useful when you need to put pairs of data together, whereas an array is only a collection of objects or data.  They can be useful for holding information such as that of a person a person or that of an item.  See below for an example of a hash:</p>
-      <p id="hash">my_info = {:first_name=>"Piara", :last_name=>"Sandhu", :age=>"29", :hometown=>"Pinole", :nationality=>"American"</p>
-      <p>Hashes rely on an object pointing to another object.  Essentially, they're used to assign meaning to data.</p>
-    </div>
+        <p>This can be a little confusing to people just learning arrays, but they will start to make sense once you start using them.  The contents of an array can be manipulated using methods or by directly manipulating the index elements.</p>
 
-    <footer class="footer">
-      <p>Piara's Blog</p>
-    <footer>
-  </body>
+        <p>Hashes are incredibly useful when you have data that are paired together, that's what separates them from arrays.  These paired data are called key and value.  Hashes are useful when you need to put pairs of data together, whereas an array is only a collection of objects or data.  They can be useful for holding information such as that of a person a person or that of an item.  See below for an example of a hash:</p>
+        
+        <div id="codeSnippet">
+          <p id="hash">my_info = {:first_name=>"Piara", :last_name=>"Sandhu", :age=>"29", :hometown=>"Pinole", :nationality=>"American"}</p>
+        </div>
 
+        <p>Hashes rely on an object pointing to another object.  Essentially, they're used to assign meaning to data.</p>
+      </div>
+
+      <footer class="footer">
+        <p id="footerText">Piara's Blog</p>
+      <footer>
+    </body>
+  </main>
 </html>
