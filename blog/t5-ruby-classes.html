@@ -41,16 +41,58 @@
       -->
 
       <div class="blog_content">
-        <p></p>
+        <p>Object-Oriented Programming was a breakthrough in computer programming in the 1950s and 1960s at MIT's Artificial Intelligence Group.  The majority of programming languages used today are object-oriented such as Java, C++, Python, Ruby, Perl and Objective-C and learning object-oriented programming is essential to staying relevant in the today's tech industry.  Languages with classes are much more powerful than those without, because classes are some of the power of today's languages reside and are, basically, here to stay.</p>
 
-        <p></p>
+        <p>Classes are used when you want to create objects.  Classes also perform a function, be it as simple is finding an area of a rectangle or as complex as garbage collection.  Unlike Ruby, not everything is an object in other languages.  Objects must be created using classes and it allows these objects to interact with each other.  Objects are often used to represent aspects of the real world.  For example, with a class you can create an outline of a person.  You can create objects for her name, age, dob, marital status, children, job, current address, employement status and credit card numbers.  All of these parameters are useful to know for banking or tax software presumably.  This person is in effect an <span class="italics">instance</span> of a class.</p>
 
-        <p></p>
+        <p>The best way to visualize a class is to think of it as a blueprint.  A blueprint of the house is the class and the actual built house is an object or an instance of that class.  An object and an instance are the same thing, in fact they can also be called a class object or a class instance.  However, to be more specific and instance describes the relationship between an object and a class.  So next time you drive through a suburb you can look at all of the houses and imagine them as individual instances of a class!</p>
+
+        <p>So let's open the hood and see what's going on inside a <span class="codeType">class</span> called <span class="codeType">Record</span></p>
+
+        <div class="codeSnippet">
+          <div>
+            <p>class Record</p>
+            <p class="tab">def initialize(band_name, album, number_tracks, genre)</p>
+            <p class="doubleTab">@band_name = band_name</p>
+            <p class="doubleTab">@album = album</p>
+            <p class="doubleTab">@number_tracks = number_tracks</p>
+            <p class="doubleTab">@genre = genre</p>
+            <p class="tab">end</p>
+
+            <p class="tab">def band</p>
+            <p class="doubleTab">puts "The name of the band is #{@band_name}"</p>
+            <p class="tab">end</p>
+
+            <p class="tab">def album</p>
+            <p class="doubleTab">puts "the name of the albums is #{@album}"</p>
+            <p class="tab">end</p>
+
+            <p class="tab">def number_tracks</p>
+            <p class="doubleTab">puts "There are #{@number_tracks} on this record"</p>
+            <p class="tab">end</p>
+
+            <p class="tab">def genre</p>
+            <p class="doubleTab">puts "#{@band_name} is a #{@genre} band"</p>
+            <p class="tab">end</p>
+            <p>end</p>
+
+            <p>fav_record = Record.new('The Pogues', 'Red Roses for Me', 13, 'punk')</p>
+            <p>fav_record.band</p>
+            <p>fav_record.album</p>
+            <p>fav_record.number_tracks</p>
+            <p>fav_record.genre</p>
+          </div>
+        </div>
+
+        <p>We have just created a <span class="codeType">class</span> called <span class="codeType">Record</span> which should take in a bunch of details about a record.  The first method that we created is the initialize method that essentially sets the parameters equal to the instance variables.  These instance variables, in effect, will be used by the class methods.</p>
+
+        <p>Class methods are methods that are only exist inside of the class, but can be called on an instantiated object outside of the class.  In this class we have four class methods called <span class="codeType">band</span>, <span class="codeType">album</span>, <span class="codeType">number-tracks</span> and <span class="codeType">genre</span>.  These methods are really simple and their function is to simply display each instance variable to give a description of the record object.</p>
+
       </div>
 
-      <footer class="footer">
+      <!-- <footer class="footer">
         <p id="footerText"><a href="http://mangrovemonitor85.github.io/my_site/my-site">Piara's Blog</a>, 2015</p>
-      <footer>
+      <footer> -->
     </body> 
   </main>
 </html>

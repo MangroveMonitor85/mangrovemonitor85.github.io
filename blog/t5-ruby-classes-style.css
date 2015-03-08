@@ -1,3 +1,4 @@
+/*Sets the stye for the header of the web page*/
 .header
 {
   border: 1px solid black;
@@ -8,57 +9,87 @@
   font-size: 30px;
 }
 
+/*Sets the style for the entire nav bar*/
 .nav_bar
 {
   float: left;
   width: 20%;
 }
 
+/*Sets the style for the headers of the two lists*/
 .listHeader
 {
   font-size: 18px;
   text-decoration: underline;
 }
 
+/*Sets the style for the blog links in the nav bar*/
 .blogLinks
 {
   padding-left: 1.5em;
   line-height: .75em;
 }
 
+/*Conditions of the text in the body of the page*/
 .blog_content
 {
+  height: 100%;
   font-family: "PT Sans","Helvetica Neue","Helvetica",Arial,sans-serif;
   float: right;
   width: 80%;
 }
 
+/*Italizes words in the text*/
+.italics
+{
+  font-style: italic;
+}
+
+/*Sets the style for the code snippet in between paragraphs in the body*/
 .codeSnippet
 {
   background-color: #eee;
-  height: 6em;
+  min-height: 33em;
   width: 100%;
   line-height: .50em;
+  padding: .75em;
 }
 
+/*Indents a code snippet*/
+.tab
+{
+  padding-left: 1.50em;
+}
+
+/*Double indents a code snippet*/
+.doubleTab
+{
+  padding-left: 3em;
+}
+
+/*Sets the style for the typed code in the paragraph*/
 .codeType
 {
   font-family: Courier, monospace;
   font-size:15px;
 }
 
-.footer
+/*Sets the style for the footer bar*/
+/*.footer
 {
   text-align: center;
   font-style: Arial Sans-serif;
   width: 100%;
-  height: 5em;
+  height: 4em;
   border: 1px solid black;
   margin-top: 90%;
-}
+  position: absolute;
+  bottom: 0%;
+}*/
 
-#footerText
+/*Sets the style for the text inside the footer*/
+/*#footerText
 {
   font-size: 30px;
   margin-top: 1em;
-}
+}*/
