@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Piara's DBC Page</title>
+    <meta charset="UTF-8">
+    <link type="text/css" rel="stylesheet"  href="t6-oop-concepts-style.css"/>
+  </head>
+  
+  <main>
+    <body>
+      <div class="header">
+        <p>Variable Scope in Ruby</p>
+      </div>
+
+      <div class="nav_bar">
+        <p id="dateTag">3/13/2015</p>
+        <p class="listHeader">Technical Blog</p>
+        <p><a href="http://mangrovemonitor85.github.io/blog/t1-git-blog" class="blogLinks">Blog 1: Git Blog</a></p>
+        <p><a href="http://mangrovemonitor85.github.io/blog/t2-css-design.html" class="blogLinks">Blog 2: CSS Design</a></p>
+        <p><a href="http://mangrovemonitor85.github.io/blog/t3-arrays-hashes.html" class="blogLinks">Blog 3: Arrays vs. Hashes</a></p>
+        <p><a href="http://mangrovemonitor85.github.io/blog/t4-enumerable-methods.html" class="blogLinks">Blog 4: Enumerable Methods</a></p>
+        <p class="listHeader">Cultural Blog</p>
+        <p><a href="http://mangrovemonitor85.github.io/blog/c1-chefs-kitchen.html" class="blogLinks">Blog 1: Learning How to Learn</a></p>
+        <p><a href="http://mangrovemonitor85.github.io/blog/c3-thinking-style.html" class="blogLinks">Blog 2: My Thinking Style</a></p>
+        <p><a href="http://mangrovemonitor85.github.io/blog/c4-tech-issues.html" class="blogLinks">Blog 3: Tech Issues Today</a></p>
+        <p><a href="http://mangrovemonitor85.github.io/blog/c5-feedback.html" class="blogLinks">Blog 4: Tech Issues Today</a></p>
+      </div>
+
+      <!-- Code Snippet
+          <div class="codeSnippet">
+            <div id="forLoop">
+            </div>
+
+            <div id="eachMethod"> 
+            </div>
+          </div> 
+
+          <div class="codeSnippet">
+          </div>
+      -->
+
+      <div class="blog_content">
+        <p>Variables are vital to programming and serve to provide a human-readable label for a data object stored within the computer.  These different variables allow a programmer to write incredibly powerful code.  Variables essentially hold data that we allocate.  Ruby has five different variables called local, global, constant, instance and class.  Each of these variables serves a purpose and most cannot be used interchangeably.  Thus a proper understanding of variables allows you to effectively handle and manage data.  Each type of variable serves a different purpose and using the wrong variable can have a deleterious effect on your code.  Knowing when to use each variable is a sign of a good programmer and it's incredibly important to learn the various roles for these variables early on.</p>
+
+        <p>Local variables are very commonly used and are generally the first type of variable taught to students and beginners.  Local variables have a very limited scope and are only accessible from the block in which it is initialized.  If, for example, a local variable is initialized in a method, it is only available to use within that method's scope.  Local variables can also be used as a method invokation as well as referencing data.  Local variables in Ruby can begin with either a lower case letter (a-z) or an underscore.  Another note worth mentioning is that local variables do not have to be initialized before they are used.</p>
+
+        <p>The next variable that we are going to learn about is the instance variable.  This variable only exists in Ruby classes and the entire class is it's scope.  Instance variables are used by instances of a class and can only hold data for that specific instance or object.  You can tell that it's an instance variable instantly by the @ symbol in front.</p>
+
+        <p>Ruby also uses the class variable.  Unlike the instance variable which only belongs to a specific object, the class variable is shared by all instances of that class and is accessible by all of the class's methods as well.  Class variables must also be initialized before they are used unlike instance and global variables.  Class variables are also private to the class they are in and cannot be accessed outside unless attribute methods are used.  The @@ designates the variable as a class variable.</p>
+
+        <p>Global variables are another variable that exists in Ruby, but are not used very often.  Global variables have, as their name implies, a global scope meaning that it can be used anywhere.  However, the use of this variable in teaching beginners is discouraged because it is considered cheating.  The overuse of global variables can also make the debugging process more difficult becuase it is hard to track down where the problem occurs with the variable during runtime.  Global variables are mainly used to call a procedure whenever it is changed.  The overuse of global variables usually indicates poor design.  Global variables begin with the $ symbol.</p>
+
+        <p>The last variable that we will talk about today is the constant.  Constant variables are not used very often and are initialized with a value that will never change during runtime.  If we were to create a program that calculates the circumference of a circle, we would use a constant to hold the value of pi.  The constant pi never changes so we expect the constant variable to follow the same behavior.  A class is the most common example of a constant.  You can change the value of a constant, but the interpreter will thrown a warning, but it is just plain bad form to change a constant.  Constants are almost always all caps.</p>
+
+        <p>Knowing when to use each variable can be difficult to figure out in the beginning, but is crucial to know later on as programs increase in complexity.  Like I said earlier, it is good programming practice to know which variable to use in each situation.</p>
+      </div>
+
+      <footer class="footer">
+        <p id="footerText"><a href="http://mangrovemonitor85.github.io/my_site/my-site">Piara's Blog</a>, 2015</p>
+      <footer>
+    </body> 
+  </main>
+</html>
