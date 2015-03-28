@@ -8,13 +8,14 @@
     <header>
       <h2>CHEATSHEET</h2>
       <h3>Ruby Loops vs JavaScript Loops</h3>
-      <h5>3.26.2015 / Piara S. / Sean S.</h5>
+      <h5>Piara S. / 3.26.2015 / Sean S.</h5>
       <nav>
         <ul>
           <li><a href="#link1">link 1</a></li>
           <li><a href="#link2">link 2</a></li>
-          <li><a href="#link3">link 3</a></li>
-          <li><a href="#link4">link 4</a></li>
+          <li><a href="#link3">JavaScript Iterators</a></li>
+          <li><a href="#link4">Ruby Iterator Methods</a></li>
+          <li><a href="#link5">Ruby Loops</a></li>
         </ul>
       </nav>
     </header>
@@ -22,40 +23,139 @@
     <div id="container">
       <section><a name="link1"></a>
         <h1>Test 1</h1>
-        <p>
-          For Loop(JS)
-        </p>
-        <pre class="prettyprint">class GymWeight<br/>end</pre>
+        <h4>Ruby For Loop</h4>
+        <p>Basic Ruby for loop:</p>
+        <pre class="prettyprint"></br># Loop over values 0 through 5.</br></br>for i in 0..5</br>prints i</br>end</br></br>//012345
+        </pre>
+        <p>Another way to perform a for loop in Ruby:</p>
+        <pre class="prettyprint">(expression).each do |variable[, variable...]| code end
+        </pre>
       </section>
     
       <section><a name="link2"></a>
-      <h1>Test 2</h1>
+        <h1>Test 2</h1>
         <p>
         </p>
         <pre class="prettyprint">class GymWeight<br/>end</pre>
       </section>
       
       <section><a name="link3"></a>
-        <h1>Test 3</h1>
+        <h1>JavaScript Iterators</h1>
         <p>
-          #Filter(JS)
+          The #filter method in JavaScript is also another method that is useful for traversing a collection of objects.  I used this method during our Guided Pairing Session.  This function accepts another function as its argument.  It returns a boolean value and displays the elements that return true in the called argument.
         </p>
-        <pre class="prettyprint">class GymWeight<br/>end</pre>
+        <div class="codeEx">
+          <pre class="prettyprint">my_hash = [0, 1, 2, 3, 4, 5, 6] // Our collection of objects<br/></pre>
+          <pre class="prettyprint">my_hash.filter(isEven)<br/></pre>
+          <pre class="prettyprint">function isEven(array){<br/></pre>
+          <pre class="prettyprint">     return element % 2 == 0<br/></pre>
+          <pre class="prettyprint">};<br/></pre>
+          <pre class="prettyprint">=> [0, 2, 4, 6]<br/></pre>
+        </div>
+
       </section>
 
       <section><a name="link4"></a>
-        <h1>Test 4</h1>
-        <p>
-         A good way to iterate through a collection of objects in Ruby is to use the #each and the #map methods.  These enumerable methods essentially iterate through an array or hash.  You can use these methods to search for certain elements based on conditions set in the block.  These methods are much more common in Ruby than for loops.
-        </p>
-        <pre class="prettyprint">class GymWeight<br/>end</pre>
+
+        <h1>Ruby Iterator Methods</h1>
+        <p>Three methods that are commonly used in Ruby to iterate through a collection of objects are the #each, #collection and #map method.  The #each method can be used with arrays or hashes.  The #map method is, however, an enumerable method that can only be used with arrays.  The #collect does the exact same thing as the #map method and they can both be used interchangeably.</p>
+
+        <div class="codeEx">
+          <pre class="prettyprint">my_hash = [0, 1, 2, 3, 4, 5] // our collection of objects<br/></pre>
+          <pre class="prettyprint">my_hash.map { |x| x ** x} // iterates through the array<br/></pre>
+          <pre class="prettyprint">=> [0, 1, 4, 9, 16, 25]<br/></pre>
+          <pre class="prettyprint"><br/></pre>
+          <pre class="prettyprint">my_hash.collect { |x| x ** x} // does the exact same as the #map method<br/></pre>
+          <pre class="prettyprint">=> [0, 1, 4, 9, 16, 25]<br/></pre>
+          <pre class="prettyprint"><br/></pre>
+          <pre class="prettyprint">my_hash.each { |x| x ** x} // It goes through the entire collection and squares all of the values<br/></pre>
+          <pre class="prettyprint">=> 0, 1, 4, 9, 16, 25<br/></pre>
+          <pre class="prettyprint"><br/></pre>
+        </div>
+
+        <p>A variation on the #each theme is the #reverse_each method which iterates through the array or hash backwards.</p>
+        
+        <div class="codeEx">
+          <pre class="prettyprint">my_hash.reverse_each { |element| x ** x } // iterates backward through the array<br/></pre>
+          <pre class="prettyprint">=> [25, 16, 9, 4, 1, 0]<br/></pre>
+          <pre class="prettyprint"><br/></pre>
+          
+        </div>
+
+        <p>The above methods are great if you want to iterate through a hash or an array on a single line, but if you need multiple lines in your block, you can use the do keyword.</p>
+
+        <div class="codeEx">
+          <pre class="prettyprint" >my_hash = [0, 1, 2, 3, 4, 5] // our collection of objects<br/></pre></p>
+          <pre class="prettyprint">my_hash.each do |element|<br/></pre>
+          <pre class="prettyprint">     if element % 2 == 0<br/></pre>
+          <pre class="prettyprint">          print "#{element} "<br/></pre>
+          <pre class="prettyprint">     end<br/></pre>
+          <pre class="prettyprint">end<br/></pre>
+          <pre class="prettyprint">=> 0, 2, 4</pre>
+        </div>
       </section>
 
+      <section><a name="link5"></a>
+        <h1>Ruby Loops</h1>
+        <p>The while, until, and for loops are loops that we have most likely used in Ruby so far in Phase 0.  The while and until loops are based on some kind of condition and run as long as the condition or conditions remain true.  You must be careful, however, with these two loops because it's easy to create an infinite loop with them.</p>
+        
+        <p>The example below is the while loop which is based on fulfilling a certain condition.  In the example below, the iterator, x, will continue to loop through myHash as long as its less than the value of myHash's length.  Once it equals myHash's length, the condition is false and resumes the flow of control elsewhere in the program.</p>
+        
+        <div class="codeEx">
+          <pre class="prettyprint" >my_hash = [0, 1, 2, 3, 4, 5] // our collection of objects<br/></pre></p>
+          <pre class="prettyprint">while x < my_hash.length // Keeps looping through the hash until the condition is false<br/></pre>
+          <pre class="prettyprint">     x = 0<br/></pre>
+          <pre class="prettyprint">     print "#{my_hash[x]} "<br/></pre>
+          <pre class="prettyprint">     x += 1 // increments during every iterations<br/></pre>
+          <pre class="prettyprint">end<br/></pre>
+          <pre class="prettyprint">=> 0 1 2 3 4 5<br/></pre>
+
+          <!-- <pre class="prettyprint"><br/></pre> -->
+        </div>
+
+        <p>Another loop that's commonly used in ruby is until.  Until is essentially the exact same thing as the while loop except the until loop breaks once the condition is true.  One must be very careful with the logic in these loops because it is very easy to make it an infinite loop.  These two loops are mainly used to traverse arrays and hashes.</p>
+
+        <div class="codeEx">
+          <pre class="prettyprint"><br/>item = 50</pre>
+          <pre class="prettyprint">until item == 0<br/></pre>
+          <pre class="prettyprint">     print "#{item} "<br/></pre>
+          <pre class="prettyprint">     item -= 10<br/></pre>
+          <pre class="prettyprint">end<br/></pre>
+          <pre class="prettyprint">=> 50 40 30 20 10<br/></pre>
+        </div>
+
+        <p>The last loop that we will cover is the for loop.  This loop is usually used to iterate through integers in other programming languages and is definitely a workhorse in many C based languages such as C, C++ and Java.  It's also common in JavaScript as well.  When I was learning Java and C++, I can't tell you how many times I used a for loop.  I used it in almost every single program I wrote in those languages.  However, it doesn't seem commonly used in Ruby</p>
+
+        <div class="codeEx">
+          <pre class="prettyprint" >my_hash = [0, 1, 2, 3, 4, 5] // our collection of objects<br/></pre></p>
+          <pre class="prettyprint">for x in my_hash<br/></pre>
+          <pre class="prettyprint">     print "#{x} "<br/></pre>
+          <pre class="prettyprint">end<br/></pre>
+          <pre class="prettyprint">=> 0, 1, 2, 3, 4, 5<br/></pre>
+        </div>
+
+        <p>The for loop doesn't have to be used with a collection of objects, it can be used with a range of numbers instead.</p>
+
+        <div class="codeEx">
+          <pre class="prettyprint">for x in 1..5<br/></pre>
+          <pre class="prettyprint">     print "#{x} "<br/></pre>
+          <pre class="prettyprint">end<br/></pre>
+          <pre class="prettyprint">=> 1, 2, 3, 4, 5<br/></pre>
+        </div>
+      </section>
+
+      <p>For loops can be used to count downwards (decrementing) as well, not just upwards.</p>
+        <div class="codeEx">
+          <pre class="prettyprint">for x in (50).downto(10) // The syntax is a little different when decrementing<br/></pre>
+          <pre class="prettyprint">     print "#{x} "<br/></pre>
+          <pre class="prettyprint">end<br/></pre>
+          <pre class="prettyprint">=> 50, 40, 30, 20, 10<br/></pre>
+        </div>
     </div>
 
     <footer>
     </footer>
 
-    script src="https://google-code-prettify.googlecode.com/svn/loader/run_prettify.js></script>
+    <!-- script src="https://google-code-prettify.googlecode.com/svn/loader/run_prettify.js></script> -->
   </body>
 </html>
