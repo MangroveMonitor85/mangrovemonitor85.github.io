@@ -48,9 +48,24 @@
       <div class="blog_content">
         <p>Programming languages are commonly categorized as statically typed and dynamically typed.  A dynamically typed language can change the variable type on the fly such as Ruby, Python and JavaScript.  A statically typed language means that once a variable's type has been set, it cannot be changed to another type such as Java, C++ and Cobol.  The two languages that we've been using are dynamically typed languages.  Also scripting languages are almost always dynamically typed languages.  Functional programming concepts tend to be displayed in dynamically typed languages as well.</p>
 
-        <p>I have a limited understanding of Java and C++, of which are statically typed languages.  If I needed to convert one variable type to another variable type, such as int to float, I had to create two variables.  One variable held the int and the other held the conversion from int to float.  When dealing with legacy code in these languages, it can be a real pain trying to discover what all of the variables do, especially if they aren't named very well.  In Ruby and JavaScript it is relatively easy to change the variable type, in statically typed languages it's a real pain in the ass.</p>
+        <p>In a statically typed language, when you create a variable in a statically typed language, you need to specify the variable type in the variable declaration.</p>
 
-        <p></p>
+        <div class="codeEx">
+          <pre class="prettyprint">char letter = 'a';</br></pre>
+          <pre class="prettyprint">int wholeNumber = 10;<br/></pre>
+          <pre class="prettyprint">string sentence = "statically typed languages";<br/></pre>
+          <pre class="prettyprint">float decimalNumber = 5.5;<br/></pre>
+        </div>
+
+        <p>I have a limited understanding of Java and C++, both of which are statically typed languages.  If I needed to convert one variable type to another variable type, such as int to float, I had to create two variables.  One variable held the int and the other held the conversion from int to float.  When dealing with legacy code in these languages, it can be a real pain trying to discover what all of the variables do, especially if they aren't named properly.  In Ruby and JavaScript it is relatively easy to change the variable type, in statically typed languages it's a real pain in the ass.  There is, however, a lower chance of error because there isn't any confusion in the compiler of what kind of variable holds what.</p>
+
+        <p>In JavaScript, the interpreter automatically sets the variable type, not when it's declared, but when it's initialized.</p>
+
+        <div class="codeEx">
+          <pre class="prettyprint">var count; // The interpreter still has not assigned a variable type</br></pre>
+          <pre class="prettyprint">count = 0; // Now the interpreter has assigned a variable type<br/></pre>
+        </div>
+
       </div>
 
       <footer class="footer">

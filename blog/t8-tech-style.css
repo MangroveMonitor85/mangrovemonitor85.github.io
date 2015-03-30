@@ -41,6 +41,11 @@
   line-height: .50em;
 }
 
+.codeEx
+{
+  margin-left: 50px;
+}
+
 .codeType
 {
   font-family: Courier, monospace;
