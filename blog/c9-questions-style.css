@@ -41,6 +41,11 @@
   line-height: .50em;
 }
 
+#tipsList
+{
+  padding-left: 3em;
+}
+
 .codeType
 {
   font-family: Courier, monospace;
